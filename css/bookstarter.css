@@ -1,5 +1,12 @@
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+/* Dropdown on hover */
+ul.nav li.dropdown-hover:hover ul.dropdown-menu {
+    display: block;    
+}
+

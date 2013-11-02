@@ -1,83 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="image/books-icon-32.png">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="image/books-icon-32.png">
 
-    <title>BookStarter</title>
+<title>BookStarter</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/bookstarter.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">BookStarter</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Mot de Passe" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Connexion</button>
-            <button type="submit" class="btn">Inscription</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/bookstarter.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class=="container">
+		<div class="col-xs-12">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">BookStarter</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown dropdown-hover active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Découvrir <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Nouveautés</a></li>
+							<li><a href="#">Les plus populaires</a></li>
+							<li><a href="#">Mis en avant</a></li>
+						</ul>
+					</li>
+					<li class="dropdown dropdown-hover">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Catégories <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Romans</a></li>
+							<li><a href="#">Biographies</a></li>
+							<li><a href="#">Documentaires</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="password" placeholder="Chercher" class="form-control">
+					</div>
+					<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+					<button type="button" class="btn btn-primary">Se Connecter</button>
+				</form>
+			</div><!--/.navbar-collapse -->
+		</div>
+	</div>
+</div>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>BookStarter est né, Vive BookStarter !</h1>
-        <p>BookStarter souhaite devenir la référence en terme de partage et de discutions pour l'auto-édition.</br>
-		   Ce site veut permettre à de jeunes écrivains de partager leurs &#156uvres sans devoir débourser d'argent !</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+	<div class="container">
+		<h1>BookStarter est né, Vive BookStarter !</h1>
+		<p>BookStarter souhaite devenir la référence en terme de partage et de discutions pour l'auto-édition.</br>
+		Ce site veut permettre à de jeunes écrivains de partager leurs &#156uvres sans devoir débourser d'argent !</p>
+		<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+	</div>
+</div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Créer</h2>
-          <p>Écrivains, inventez votre propre histoire et partagez-la avec la communauté, discutez avec eux pour avoir leur avis, proposez leur de vous faire des dons pour vous prouver a quel point votre histoire leurs a plus.</p>
-          <p><a class="btn btn-default" href="#" role="button">En savoir plus &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Découvrir</h2>
-          <p>Venez découvrir tous les livres mis a votre disposition, prenez un maximum de plaisir à lire les livres, laissez un commentaire à l'artiste pour lui dire ce qui vous a plu ou ce qui au contraire vous a dérangé et si l'oeuvre vous a vraiment plu n'hésitez pas à faire un don à l'auteur pour le remercier (si l'auteur le propose :-)</p>
-          <p><a class="btn btn-default" href="#" role="button">En savoir plus &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Partager</h2>
-          <p>Découvrez des livres et partagez votre découverte avec vos amis, avec vos connaissances ou bien avec tout le monde, partagez votre opinion sur l'oeuvre avec la communauté pour essayez de faire ressortir les points forts de l'auteur.</p>
-          <p><a class="btn btn-default" href="#" role="button">En savoir plus &raquo;</a></p>
-        </div>
-      </div>
+<div class="container">
+	<!-- Example row of columns -->
+	<div class="row">
+		<div class="col-md-4">
+			<h2>Créer</h2>
+			<p>Écrivains, inventez votre propre histoire et partagez-la avec la communauté, discutez avec eux pour avoir leur avis, proposez leur de vous faire des dons pour vous prouver a quel point votre histoire leurs a plus.</p>
+			<p><a class="btn btn-default" href="#" role="button">En savoir plus &raquo;</a></p>
+		</div>
+		<div class="col-md-4">
+			<h2>Découvrir</h2>
+			<p>Venez découvrir tous les livres mis a votre disposition, prenez un maximum de plaisir à lire les livres, laissez un commentaire à l'artiste pour lui dire ce qui vous a plu ou ce qui au contraire vous a dérangé et si l'oeuvre vous a vraiment plu n'hésitez pas à faire un don à l'auteur pour le remercier (si l'auteur le propose :-)</p>
+			<p><a class="btn btn-default" href="#" role="button">En savoir plus &raquo;</a></p>
+		</div>
+		<div class="col-md-4">
+			<h2>Partager</h2>
+			<p>Découvrez des livres et partagez votre découverte avec vos amis, avec vos connaissances ou bien avec tout le monde, partagez votre opinion sur l'oeuvre avec la communauté pour essayez de faire ressortir les points forts de l'auteur.</p>
+			<p><a class="btn btn-default" href="#" role="button">En savoir plus &raquo;</a></p>
+		</div>
+	</div>
 
-      <hr>
+	<hr>
 
-      <footer>
-        <p>&copy; BookStarter 2013</p>
-      </footer>
-    </div> <!-- /container -->
+	<footer>
+		<p>&copy; BookStarter 2013</p>
+	</footer>
+</div> <!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+		================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
